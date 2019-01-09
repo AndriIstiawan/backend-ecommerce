@@ -28,30 +28,28 @@ To be able to run Laravel Boilerplate you have to meet the following requirement
 ```
 $ git clone https://github.com/sasori69/backend-ecommerce.git
 ```
-4. Checkout from branch master
-```
-5. Change into the working directory
+4. Change into the working directory
 ```
 $ cd backend-ecommerce
 ```
-6. Copy `.env.example` to `.env` and modify according to your environment
+5. Copy `.env.example` to `.env` and modify according to your environment
 ```
 $ cp .env.example .env
 ```
-7. Install composer dependencies
+6. Install composer dependencies
 ```
 $ composer install
 ```
-8. An application key can be generated with the command
+7. An application key can be generated with the command
 ```
 $ php artisan key:generate
 ```
-9. Execute following commands to install other dependencies
+8. Execute following commands to install other dependencies
 ```
 $ npm install
 $ npm run dev
 ```
-10. Run these commands to create the tables within the defined database and populate seed data
+9. Run these commands to create the tables within the defined database and populate seed data
 ```
 $ php artisan migrate --seed
 ```
