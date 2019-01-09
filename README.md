@@ -26,15 +26,13 @@ To be able to run Laravel Boilerplate you have to meet the following requirement
 
 3. Clone repository
 ```
-$ git clone https://lawhite@bitbucket.org/fituredevelopment/fe-b2b-backend-web.git
+$ git clone https://github.com/sasori69/backend-ecommerce.git
 ```
 4. Checkout from branch master
 ```
-$ git checkout -b faishal
-```
 5. Change into the working directory
 ```
-$ cd fe-b2b-backend-web
+$ cd backend-ecommerce
 ```
 6. Copy `.env.example` to `.env` and modify according to your environment
 ```
@@ -62,7 +60,7 @@ If you get an error like a `PDOException` try editing your `.env` file and chang
 ## User Login
 1. Root login
 
-- username : ```root@fiture.id```
+- username : ```root@asd.id```
 - password : ```asdasd```
 
 ## Run
